@@ -30,7 +30,7 @@
                         <td class="py-2 px-4 border">{{ item.id }}</td>
                         <td class="py-2 px-4 border">{{ item.name }}</td>
                         <td class="py-2 px-4 border">{{ item.price }}</td>
-                        <td>
+                        <td class="px-2">
                             <Link
                                 :href="route('products.show', item.id)"
                                 class="px-2 py-1 text-sm bg-blue-300 text-dark me-2 rounded inline-block"
